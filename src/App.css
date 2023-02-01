@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+body {
   background-color: #282c34;
-  min-height: 100vh;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.title {
+  position:relative;
+  font-size: 3rem;
+  color: #c1b5b5; 
+  font-weight: 700;
+  margin-left:35%;
+}
+
+
+.button {
+  background-color: #2ecc71;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left : 37%;
+}
+
+
+
+.header__link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+
+.header__link :hover{
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__name {
+  margin-right: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header__photo {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.header__sign-out {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__sign-out:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.header {
+  background: linear-gradient(to bottom, #00b5ff, #007bff);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .home .createpost {
+  background: linear-gradient(to bottom, #00b5ff, #007bff);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 50%;
+  margin-left: 25%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.post-description {
+  padding: 8px;
+  margin-left: 25%;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.post-submit {
+  padding: 8px 16px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left : 50%;
+}
+
+.post {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 50%;
+  margin: 50px auto;
+  background-color: #7b88cf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.post_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  padding: 5px;
+  border-style: groove;
+  border-color: skyblue;
+  background-color: #305ebb;
+  border-radius: 10px;
+}
+
+.x_button {
+  background-color: #305ebb;
+  border: dotted;
+  border-style: groove;
+  color: rgb(253, 230, 230);
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: #d43216;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left : 37%;
+}
+.post_title {
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+
+}
+
+button {
+  background-color: #4caf50;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.post_body {
+  padding: 20px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post_description {
+  font-size: 16px;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #7b88cf;
+  border-top: #fff solid 1px;
+}
+
+.post_username {
+  padding-left:10px;
+  font-size: 16px;
+  font-weight: bold;
 }
