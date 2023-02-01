@@ -15,7 +15,7 @@ body {
   font-size: 3rem;
   color: #c1b5b5; 
   font-weight: 700;
-  margin-left:35%;
+  margin-left:40%;
 }
 
 
@@ -87,7 +87,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(to bottom, #00b5ff, #007bff);
+  background: linear-gradient(to bottom, #1e90ff, #007bff);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -132,7 +132,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   margin-top: 8px;
-  margin-left : 50%;
+  margin-left : 47%;
 }
 
 .post {
